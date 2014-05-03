@@ -1,6 +1,6 @@
 # Computrace Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/xcompass/puppet-computrace?branch=master)](https://travis-ci.org/xcompass/puppet-computrace)
+[![Build Status](https://travis-ci.org/xcompass/puppet-computrace.svg?branch=master)](https://travis-ci.org/xcompass/puppet-computrace)
 
 ## Usage
 
