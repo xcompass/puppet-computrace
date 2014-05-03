@@ -14,7 +14,7 @@ describe 'computrace' do
     it do
       should contain_package('computrace').with({
         :provider => 'compressed_pkg',
-        :source   => "http://test:test@artifactory.ctlt.ubc.ca/artifactory/ctlt-release-local/Computrace/RPClient.pkg.zip",
+        :source   => "http://test:test@artifactory.ctlt.ubc.ca/artifactory/ctlt-protected/Computrace/RPClient.pkg.zip",
       })
     end
   end

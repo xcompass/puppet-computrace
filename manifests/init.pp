@@ -14,7 +14,7 @@ class computrace (
   if $username != 'NO_ACCESS' {
     package { 'computrace':
       provider => 'compressed_pkg',
-      source   => "http://${username}:${password}@artifactory.ctlt.ubc.ca/artifactory/ctlt-release-local/Computrace/RPClient.pkg.zip",
+      source   => "http://${username}:${password}@artifactory.ctlt.ubc.ca/artifactory/ctlt-protected/Computrace/RPClient.pkg.zip",
     }
   } else {
     notice('Skipped installing Computrace as credential is not specified!')
